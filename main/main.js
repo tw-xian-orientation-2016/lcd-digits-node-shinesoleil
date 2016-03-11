@@ -54,9 +54,9 @@ function display(orderedPatterns) {
 }
 
 function lcd(number) {
-  var digits = split(number);
-  var patterns = getPatterns(digits, dictionary);
-  var patternsInOrder = concat(patterns);
+  let digits = split(number);
+  let patterns = getPatterns(digits, dictionary);
+  let patternsInOrder = concat(patterns);
   return display(patternsInOrder);
 }
 
