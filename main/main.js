@@ -1,11 +1,13 @@
+'use strict';
+
 function split(number) {
-  var digits = number.toString().split('');
-  return digits.map(function (digit) {
+  let digits = number.toString().split('');
+  return digits.map(digit => {
     return parseInt(digit);
   })
 }
 
-var dictionary = {
+const dictionary = {
   0: ['._.', '|.|', '|_|'],
   1: ['...', '..|', '..|'],
   2: ['._.', '._|', '|_.'],
