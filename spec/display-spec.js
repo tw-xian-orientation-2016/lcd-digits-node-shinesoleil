@@ -1,3 +1,5 @@
+var lcd = require('../main/main.js');
+
 describe('display the text', function () {
 
   var patternsInOrder = ["... ._.", "..| |.|", "..| |_|"];
@@ -11,7 +13,7 @@ describe('display the text', function () {
   });
 
   it('should display the LCD patterns', function () {
-    display(patternsInOrder);
+    lcd.display(patternsInOrder);
     expect(console.log).toHaveBeenCalledWith(text);
   })
 });

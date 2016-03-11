@@ -60,5 +60,10 @@ function lcd(number) {
   return display(patternsInOrder);
 }
 
-module.exports = lcd;
+exports.lcd = lcd;
+exports.split = split;
+exports.concat = concat;
+exports.display = display;
+exports.getPatterns = getPatterns;
+exports.dictionary = dictionary;
 

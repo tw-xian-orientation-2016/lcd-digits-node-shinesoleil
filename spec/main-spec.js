@@ -7,6 +7,6 @@ describe('integration test', function() {
       '..| |_. ._| ..|\n';
 
   it('should display lcd for a number', function() {
-    expect(lcd(1234)).toEqual(pattern);
+    expect(lcd.lcd(1234)).toEqual(pattern);
   })
 });
