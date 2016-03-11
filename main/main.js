@@ -43,8 +43,8 @@ function concat(patterns) {
 }
 
 function display(orderedPatterns) {
-  var text = '';
-  orderedPatterns.forEach(function (orderedPattern) {
+  let text = '';
+  orderedPatterns.forEach(orderedPattern => {
     text += orderedPattern;
     text += '\n';
   });
