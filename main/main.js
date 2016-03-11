@@ -25,9 +25,9 @@ function getPatterns(digits, dictionary) {
 }
 
 function concat(patterns) {
-  var firstLine = '';
-  var secondLine = '';
-  var thirdLine = '';
+  let firstLine = '';
+  let secondLine = '';
+  let thirdLine = '';
 
   patterns.forEach(pattern => {
     firstLine += pattern[0] + ' ';
