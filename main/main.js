@@ -21,9 +21,7 @@ const dictionary = {
 };
 
 function getPatterns(digits, dictionary) {
-  return digits.map(function (digit) {
-    return dictionary[digit];
-  })
+  return digits.map(digit => dictionary[digit]);
 }
 
 function concat(patterns) {
