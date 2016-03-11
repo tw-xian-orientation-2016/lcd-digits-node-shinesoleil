@@ -29,7 +29,7 @@ function concat(patterns) {
   var secondLine = '';
   var thirdLine = '';
 
-  patterns.forEach(function (pattern) {
+  patterns.forEach(pattern => {
     firstLine += pattern[0] + ' ';
     secondLine += pattern[1] + ' ';
     thirdLine += pattern[2] + ' ';
