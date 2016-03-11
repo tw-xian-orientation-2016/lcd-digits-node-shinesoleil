@@ -2,9 +2,7 @@
 
 function split(number) {
   let digits = number.toString().split('');
-  return digits.map(digit => {
-    return parseInt(digit);
-  })
+  return digits.map(digit => parseInt(digit))
 }
 
 const dictionary = {
